@@ -1,0 +1,7 @@
+[[IgnoredVulns]]
+id = "GHSA-g9mf-h72j-4rw9"
+reason = "undici - Low risk; requires malicious GitHub API response; action only calls trusted GitHub endpoints"
+
+[[IgnoredVulns]]
+id = "GHSA-2mjp-6q6p-2qxm"
+reason = "undici - Low risk; requires proxy misconfiguration; action runs in GitHub-hosted environment"
